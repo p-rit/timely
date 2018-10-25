@@ -9,7 +9,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
 
-      <title>Timetable Generation System</title>
+      <title>Timetable Management System</title>
 
       <!-- Bootstrap core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,97 +30,156 @@
 
     <!-- Navigation -->
      <?php include('include/header.php'); ?>
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Welcome !</div>
-          <div class="intro-heading text-uppercase">Time is Money</div>
-          <div class="intro-lead-in">Schedule it with us</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-        </div>
-      </div>
-    </header>
+   
 
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
+          
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">TimeTable</h2>
+            <h2 class="section-heading ">TimeTable</h2>
             <h3   class="section-heading " id="demo"> </h3>
             
             <h3 class="section-subheading text-muted">click images to see M.Tech semester timetable</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="row" id="even">
+          
+
+          <div class="col-md-4 col-sm-6 portfolio-item" id="even">
             
 
-              <a href="/time_table/sem2.php">
+              <a href=".\sem2.php">
               <img class="img-fluid" src="img/portfolio/2.1.jpg" alt="">
             </a> 
             <div class="portfolio-caption">
-              <h4 id="h1"></h4>
+              <h4 id="h1">2</h4>
               <p class="text-muted">Semester</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-             <a href="/time_table/sem4.php">
+          <div class="col-md-4 col-sm-6 portfolio-item" id="even">
+             <a href=".\sem4.php">
               
               <img class="img-fluid" src="img/portfolio/4.1.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4 id="h2"></h4>
+              <h4 id="h2">4</h4>
               <p class="text-muted">Semester</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-             <a href="/time_table/sem6.php">
+          <div class="col-md-4 col-sm-6 portfolio-item" id="even">
+             <a href=".\sem6.php">
               
               <img class="img-fluid" src="img/portfolio/6.1.jpg" alt="">
            </a>
             <div class="portfolio-caption">
-              <h4 id="h3">Finish</h4>
+              <h4 id="h3">6</h4>
               <p class="text-muted">Semester</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-             <a href="/time_table/sem8.php">
+          <div class="col-md-4 col-sm-6 portfolio-item" id="even">
+             <a href=".\sem8.php">
               
               <img class="img-fluid" src="img/portfolio/8.1.jpg" alt="" width="700px" height="450px">
             </a>
             <div class="portfolio-caption">
-              <h4 id="h4">Lines</h4>
+              <h4 id="h4">8</h4>
               <p class="text-muted">Semester</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-             <a href="/time_table/sem10.php">
+          <div class="col-md-4 col-sm-6 portfolio-item" id="even">
+             <a href=".\sem10.php">
               
               <img class="img-fluid" src="img/portfolio/10.1.jpg" alt="" >
             </a>
             <div class="portfolio-caption">
-              <h4 id="h5">Southwest</h4>
+              <h4 id="h5">10</h4>
               <p class="text-muted">Semester</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a  href="lab.php">
+          <div class="col-md-4 col-sm-6 portfolio-item" id="even">
+            <a  href="lab_even.php">
             
               <img class="img-fluid" src="img/portfolio/lab.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Lab TimeTable</h4>
+              <h6>Lab Timetable</h6>
               <p class="text-muted">All Semester</p>
             </div>
           </div>
+          
+         </div>  
+              <div class="row" id="odd">
+             <div class="col-md-4 col-sm-6 portfolio-item" id="odd">
+            
+
+              <a href=".\sem1.php">
+              <img class="img-fluid" src="img/portfolio/2.1.jpg" alt="">
+            </a> 
+            <div class="portfolio-caption">
+              <h4 id="h1">1</h4>
+              <p class="text-muted">Semester</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item" id="odd">
+             <a href=".\sem3.php">
+              
+              <img class="img-fluid" src="img/portfolio/4.1.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4 id="h2">3</h4>
+              <p class="text-muted">Semester</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item" id="odd">
+             <a href=".\sem5.php">
+              
+              <img class="img-fluid" src="img/portfolio/6.1.jpg" alt="">
+           </a>
+            <div class="portfolio-caption">
+              <h4 id="h3">5</h4>
+              <p class="text-muted">Semester</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item" id="odd">
+             <a href=".\sem7.php">
+              
+              <img class="img-fluid" src="img/portfolio/8.1.jpg" alt="" width="700px" height="450px">
+            </a>
+            <div class="portfolio-caption">
+              <h4 id="h4">7</h4>
+              <p class="text-muted">Semester</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item" id="odd">
+             <a href=".\sem9.php">
+              
+              <img class="img-fluid" src="img/portfolio/10.1.jpg" alt="" >
+            </a>
+            <div class="portfolio-caption">
+              <h4 id="h5">9</h4>
+              <p class="text-muted">Semester</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item" id="odd">
+            <a  href="lab_odd.php">
+            
+              <img class="img-fluid" src="img/portfolio/lab.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h6>Lab Timetable</h6>
+              <p class="text-muted">All Semester</p>
+            </div>
+          </div>
+          </div>
+           
+
         </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <?php //include('contact_us.php') ?>
+   
 
     <!-- Footer -->
     <?php include('include/footer.php'); ?>

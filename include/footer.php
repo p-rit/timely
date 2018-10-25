@@ -2,17 +2,16 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6"><span class="text-muted">
-          <h3>Developers</h3>
-             Ritul Patidar,
-              Sonali Sharma
-           
-           </span>
+           <h3 style="font-family: Autour One">Developer</h3>
+          
+             Ritul Patidar
+             </span>
           </div>
            <div class="col-md-6">
             
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://github.com/timetable12/">
+                <a href="#">
                   <i class="fa fa-github"></i>
                 </a>
               </li>

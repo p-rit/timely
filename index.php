@@ -8,7 +8,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
 
-      <title>Timetable generation System</title>
+      <title>Timetable Management System</title>
 
       <!-- Bootstrap core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,13 +22,19 @@
 
       <!-- Custom styles for this template -->
       <link href="css/agency.min.css" rel="stylesheet">
+     
+   
       
   </head>
 
   <body id="page-top">
 
-    <!-- Navigation -->
-     <?php include('include/header.php'); ?>
+  <!-- Navigation -->
+   <?php include('include/header.php'); ?>     
+  
+    <div id="includedContent"></div>
+
+
     <!-- Header -->
     <header class="masthead">
       <div class="container">
@@ -41,8 +47,7 @@
       </div>
     </header>
 
-    <!-- Books  -->
-    <section class="bg-light" id="portfolio">
+ <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -140,10 +145,12 @@
     </section>
 
     <!-- Contact -->
-    <?php //include('contact_us.php') ?>
+   
 
     <!-- Footer -->
+  
     <?php include('include/footer.php'); ?>
+     
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

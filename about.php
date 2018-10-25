@@ -8,7 +8,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
 
-      <title>TimeTable Generation System</title>
+      <title>TimeTable Management System</title>
 
       <!-- Bootstrap core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,27 +29,18 @@
 
     <!-- Navigation -->
      <?php include('include/header.php'); ?>
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Welcome !</div>
-          
-          <div class="intro-heading text-uppercase">Time is Money </div> 
-          <div class="intro-lead-in">Schedule it with us</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-        </div>
-      </div>
-    </header>
+    
 
 
 <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Its a TimeTable generation System for any educational institute( college or School).</h3>
-              <h4>Here we facilitate you to schdeule classroom timetable as well as Lab timetable</h4>
+            <h2 class="section-heading " style="font-family: Autour One" >About us</h2>
+            <h3 class="section-subheading text-muted">It's a TimeTable Management System for any educational institute( college or School).</h3>
+              <h4 style="font-family: Autour One"> We facilitate you,</h4><br>
+               <h6>1. to schdeule classroom timetable.<br>
+                   2. to schedule Lab timetable.</h6>
           </div>
         </div>
       </div>

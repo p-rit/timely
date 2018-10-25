@@ -8,7 +8,7 @@
       <meta name="description" content="">
       <meta name="author" content="">
 
-      <title>Timetable Generation System</title>
+      <title>Timetable Management System</title>
 
       <!-- Bootstrap core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,15 +35,14 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">TimeTable</h2>
-             <h3 class="section-subheading text-muted">M.tech Semester 10 Timetable Session : Jan-Jun , 2018<br>
+            <h3 class="section-subheading text-muted">M.tech Semester 10 Timetable Session : 2018<br>
              
           </div>
         </div>
       <div class="table-responsive" >
-        <center>
+       
       
-<table  id = 'table' class="table table-hover table-responsive">
+<table   class="table table-hover table-responsive">
   
   <tr>
     <td style="font-size: 30px;font-weight: bold;">Day</td>
@@ -58,22 +57,22 @@
 
   <tr>
     <td>Mon</td>
-     <td id="t1">sub5_10</td>
-      <td id="t2">sub5_10</td>
-       <td id="t3">sub4_10</td>
-        <td id="t4">sub3_10</td>
-     <td id="t5">sub2_10</td>
+     <td id="t1">sub5</td>
+      <td id="t2">sub5</td>
+       <td id="t3">sub4</td>
+        <td id="t4">sub3</td>
+     <td id="t5">sub2</td>
      
 
   </tr>
   
   <tr>
     <td>Tues</td>
-     <td id="t6">sub5_10</td>
-      <td id="t7">sub5_10</td>
-       <td id="t8">sub4_10</td>
-        <td id="t9">sub3_10</td>
-     <td id="t10">sub2_10</td>
+     <td id="t6">sub5</td>
+      <td id="t7">sub5</td>
+       <td id="t8">sub4</td>
+        <td id="t9">sub3</td>
+     <td id="t10">sub2</td>
      
 
   </tr>
@@ -83,8 +82,8 @@
      <td id="t11"></td>
      <td id="t12"></td>
       <td id="t13"></td>
-     <td id="t14">sub3_10</td>
-      <td id="t15">sub1_10</td>
+     <td id="t14">sub3</td>
+      <td id="t15">sub1</td>
 
   </tr>
   <tr>
@@ -92,39 +91,37 @@
      <td id="t16"></td>
      <td id="t17"></td>
       <td id="t18"></td>
-     <td id="t19">sub3_10</td>
-      <td id="t20">sub1_10</td>
+     <td id="t19">sub3</td>
+      <td id="t20">sub1</td>
 
   </tr>
   <tr>
     <td>Fri</td>
      <td id="t21"></td>
      <td id="t22"></td>
-      <td id="t23">sub4_10</td>
-     <td id="t24">sub2_10</td>
-      <td id="t25">sub1_10</td>
+      <td id="t23">sub4</td>
+     <td id="t24">sub2</td>
+      <td id="t25">sub1</td>
 
   </tr>
   <tr>
     <td>Sat</td>
      <td id="t26"></td>
      <td id="t27"></td>
-      <td id="t28">sub4_10</td>
-     <td id="t29">sub2_10</td>
-      <td id="t30">sub1_10</td>
+      <td id="t28">sub4</td>
+     <td id="t29">sub2</td>
+      <td id="t30">sub1</td>
 
   </tr>
   
   </table>
 </div>
-</center>
+
  </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <?php //include('contact_us.php') ?>
-
+   
     <!-- Footer -->
     <?php include('include/footer.php'); ?>
 
