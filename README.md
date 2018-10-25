@@ -1,4 +1,4 @@
-# timetable_generation_system
+# timely
 
- This repo contain code for timetable generation system. This system automatically generates timetable on giving faculty names and subject as input. This system helps you to schedule both Lab as well as Semester Timtable for an Educational Institution.
- Tech used : PHP, HTML, JavaScript ,Jquery ,Bootstrap and ajax 
+ This system helps you to keep ur schedule both Lab as well as Semester at one place and display them as pr the session going on for an Educational Institution.
+ Tech used : PHP, HTML, JavaScript and Bootstrap 
